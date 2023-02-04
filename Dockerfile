@@ -7,7 +7,7 @@ RUN curl -Ls ${mainurl} | tar xzf -
 #RUN cd virtualtabletop-main && npm install --prod
 RUN cd virtualtabletop-main && npm install
 
-COPY config /virtualtabletop-main/
+#COPY config /virtualtabletop-main/
 
 #RUN /virtualtabletop-main/editroom.sh
 
