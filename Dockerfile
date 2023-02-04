@@ -6,7 +6,6 @@ RUN curl -Ls ${mainurl} | tar xzf -
 
 RUN cd virtualtabletop-main && npm install
 
-
 EXPOSE 8272
 VOLUME /virtualtabletop-main/save
 WORKDIR /virtualtabletop-main
