@@ -1,0 +1,7 @@
+playtest-rnrgames:
+  build: ./vtt/docker
+  container_name: playtest-rnrgames
+  volumes:
+    - /home/av/data/playtest-rnrgames:/virtualtabletop-main/save
+    - /home/av/vtt/docker/games:/virtualtabletop-main/library/games
+  restart: unless-stopped
