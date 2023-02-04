@@ -9,7 +9,7 @@ RUN cd virtualtabletop-main && npm install
 
 COPY config /virtualtabletop-main/
 
-RUN /virtualtabletop-main/editroom.sh
+#RUN /virtualtabletop-main/editroom.sh
 
 #RUN npm install -g nodemon
 
