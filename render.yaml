@@ -1,5 +1,5 @@
 services:
-  build: ./
+  dockerfilePath: ./Dockerfile
   container_name: virtualtabletop
   volumes:
     - /save:/virtualtabletop-main/save
