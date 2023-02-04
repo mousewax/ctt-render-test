@@ -2,6 +2,3 @@ services:
   - type: web
     name: virtualtabletop
     dockerfilePath: ./Dockerfile
-    volumes:
-      - /save:/virtualtabletop-main/save
-    restart: unless-stopped
