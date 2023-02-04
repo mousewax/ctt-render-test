@@ -1,4 +1,4 @@
-playtest-rnrgames:
+services:
   build: ./vtt/docker
   container_name: playtest-rnrgames
   volumes:
