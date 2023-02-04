@@ -1,6 +1,6 @@
 services:
-  build: ./vtt/docker
-  container_name: playtest-rnrgames
+  build: ./
+  container_name: virtualtabletop
   volumes:
     - /save:/virtualtabletop-main/save
   restart: unless-stopped
